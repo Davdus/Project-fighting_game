@@ -1,0 +1,306 @@
+.clear {
+    float: none;
+    clear: both;
+}
+
+h6
+{
+    font-family: "Prestige Elite Std", "Agency FB", "Times New Roman", sans-serif;
+    font-weight: normal;
+    font-size: 8px;
+    margin: 0 0 10px 0;
+}
+
+h4
+{
+    margin: 5px 0 5px 0;
+    font-size: 22px;
+}
+
+body
+{
+    color: snow;
+    font-family: "Agency FB", "Times New Roman", sans-serif;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("img/backgroundalpha.jpg");
+    line-height: 16px;
+    font-size: 20px;
+}
+
+h3
+{
+    margin: 10px 5px 5px 5px;
+}
+
+h5
+{
+    font-family: "Prestige Elite Std", "Agency FB", "Times New Roman", sans-serif;
+    text-align: center;
+}
+
+<!--
+
+#mainTitle
+{
+    font-family: "Prestige Elite Std", "Agency FB", "Times New Roman", sans-serif;
+    color: snow;
+    text-align: center;
+}
+
+#navigation
+{
+    float: none;
+    font-size: 16px;
+}
+
+#navigation ul
+{
+    padding: 0;
+    margin: 0 0 20px 0;
+    -webkit-box-shadow: 0 0 8px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0 0 8px 2px rgba(0,0,0,0.75);
+    box-shadow: 0 0 8px 2px rgba(0,0,0,0.75);
+    border-radius: 5px;
+    border: solid #1b1b1b;
+    overflow: hidden;
+    display: block;
+}
+
+#navigation li
+{
+    padding: 0;
+    display: block;
+    float: left;
+    width: 20%;
+    margin: 0;
+}
+
+#navigation a
+{
+    font-family: "Agency FB","Times New Roman", sans-serif;
+    text-align: center;
+    color: snow;
+    height: auto;
+    text-decoration: none;
+    display: block;
+    background: url("img/button.jpg");
+    padding: 10px;
+    overflow: hidden;
+}
+
+#navigation a:hover
+{
+    background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("img/button.jpg");
+}
+
+<!--
+
+.content
+{
+    width: 80%;
+    margin: 35px auto 0 auto;
+    padding: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/button.jpg");
+    -webkit-box-shadow: 0 0 27px 0 rgba(150, 150, 150, 0.66);
+    -moz-box-shadow:    0 0 27px 0 rgba(150, 150, 150, 0.66);
+    box-shadow:         0 0 27px 0 rgba(150, 150, 150, 0.66);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.intro
+{
+    float: none;
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    padding: 7px 10px 0 10px;
+}
+
+.generic
+{
+    float: left;
+    margin: auto;
+    width: 45%;
+    padding: 5px 10px 0 2%;
+}
+
+.generic_img
+{
+    margin-top: 50px;
+    float: right;
+    width: 45%;
+}
+
+#health1
+{
+    width: 90%;
+    margin: 0;
+}
+
+#health2
+{
+    width: 90%;
+}
+
+.genericNeutral
+{
+    float: right;
+    margin: auto;
+    width: 45%;
+    padding: 5px 2% 0 2%;
+}
+
+.neutral_img
+{
+    float: left;
+    width: 45%;
+    margin: 45px 1% 0 auto;
+    padding: 0 0 0 4%;
+}
+
+#neutral_gen
+{
+    width: 95%;
+}
+
+.genericMixup
+{
+    float: left;
+    margin: auto;
+    width: 45%;
+    padding: 5px 10px 0 2%;
+}
+
+.mixup_img
+{
+    margin-top: 50px;
+    float: right;
+    width: 45%;
+}
+
+#mixup
+{
+    width: 90%;
+}
+
+.genericCombo
+{
+    float: right;
+    margin: auto;
+    width: 45%;
+    padding: 5px 2% 0 2%;
+}
+
+.combo_img
+{
+    float: left;
+    width: 45%;
+    margin: 45px 1% 0 auto;
+    padding: 0 0 0 4%;
+}
+
+#combo1
+{
+    width: 90%;
+}
+
+.genericEnd
+{
+    float: none;
+    clear: both;
+    margin: auto;
+    width: 60%;
+    padding: 3% 10px 3% 10px;
+}
+
+.footer
+{
+    width: 100%;
+    margin: 20px auto;
+    color: #4e4e4e;
+}
+
+@media only screen and (max-width: 1500px)
+{
+    body
+    {
+        font-size: 18px;
+    }
+
+    h4
+    {
+        font-size: 20px;
+    }
+
+    .generic_img
+    {
+        margin-top: 50px;
+        float: right;
+        width: 45%;
+    }
+
+    .neutral_img
+    {
+        float: left;
+        width: 45%;
+        margin: 45px 1% 0 auto;
+        padding: 0 0 0 4%;
+    }
+
+    .mixup_img
+    {
+        margin-top: 50px;
+        float: right;
+        width: 45%;
+    }
+
+    .combo_img
+    {
+        float: left;
+        width: 45%;
+        margin: 45px 1% 0 auto;
+        padding: 0 0 0 4%;
+    }
+
+}
+
+@media only screen and (max-width: 1050px)
+{
+    body
+    {
+        font-size: 16px;
+    }
+
+    h4
+    {
+        font-size: 18px;
+    }
+
+    .content
+    {
+        width: 90%;
+    }
+
+    #navigation li.first,
+    #navigation li.second,
+    #navigation li.third
+    {
+        width: 33.33%;
+    }
+
+    #navigation li.forth,
+    #navigation li.last
+    {
+        width: 50%;
+    }
+
+    #navigation a
+    {
+        padding: 15px;
+    }
+}
+
+@media only screen and (max-width: 515px)
+{
+
+}

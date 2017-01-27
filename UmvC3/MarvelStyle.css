@@ -1,0 +1,22 @@
+body
+{
+    background:  linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/umvcbackground.jpg");
+}
+
+.header
+{
+    float: none;
+    clear: both;
+}
+
+#marvelpic
+{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+}
+
+.content
+{
+    background: url("../img/button2.png");
+}

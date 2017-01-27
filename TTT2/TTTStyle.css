@@ -1,0 +1,22 @@
+body
+{
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("img/tttbackground.jpg");
+}
+
+.header
+{
+    float: none;
+    clear: both;
+}
+
+#TTTpic
+{
+    display: block;
+    margin: auto;
+    width: 18%;
+}
+
+.content
+{
+    background: url("../img/button2.png");
+}
